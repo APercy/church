@@ -84,7 +84,7 @@ church_bell.ring_church_bell = function()
     minutes = math.floor(minutes * 100)
     minutes = (minutes * 60) / 100
     local minute, sekundes = math.modf( minutes )
-    sekunde = (sekundes*60)
+    local sekunde = (sekundes*60)
     local delay   = church_bell.RING_INTERVAL;
     --minetest.chat_send_all('stunde: '.. stunde .. ' - minute: ' .. minute .. ' - sekunde: ' .. sekunde)
 
